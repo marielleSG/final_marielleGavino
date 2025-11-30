@@ -1,0 +1,61 @@
+import type { Product } from "./types"
+
+export const DEFAULT_PRODUCTS: Product[] = [
+  {
+    id: "1",
+    name: "Wireless Headphones",
+    category: "Electronics",
+    price: 79.99,
+    quantity: 15,
+    description: "Premium wireless headphones with active noise cancellation and 30-hour battery life.",
+    specification: "Bluetooth 5.0, 40mm drivers, ANC enabled",
+    rating: 4.5,
+    image: "/wireless-headphones.png",
+  },
+  {
+    id: "2",
+    name: "USB-C Cable",
+    category: "Accessories",
+    price: 12.99,
+    quantity: 3,
+    description: "Fast charging USB-C cable with 10Gbps data transfer speed.",
+    specification: "2 meters, supports 100W charging",
+    rating: 4.2,
+    image: "/usb-cable.png",
+  },
+  {
+    id: "3",
+    name: "Mechanical Keyboard",
+    category: "Electronics",
+    price: 129.99,
+    quantity: 8,
+    description: "RGB mechanical keyboard with customizable switches and programmable keys.",
+    specification: "Cherry MX switches, 104 keys, RGB backlit",
+    rating: 4.7,
+    image: "/mechanical-keyboard.png",
+  },
+  {
+    id: "4",
+    name: "Phone Stand",
+    category: "Accessories",
+    price: 15.99,
+    quantity: 2,
+    description: "Adjustable aluminum phone stand for desk and tabletop use.",
+    specification: "Aluminum alloy, fits all phones 4-7 inches",
+    rating: 4.0,
+    image: "/phone-stand.jpg",
+  },
+  {
+    id: "5",
+    name: "Laptop Bag",
+    category: "Accessories",
+    price: 49.99,
+    quantity: 12,
+    description: "Water-resistant laptop bag with multiple compartments and USB charging port.",
+    specification: "Fits up to 17 inch laptops, 25L capacity",
+    rating: 4.3,
+    image: "/laptop-bag.jpg",
+  },
+]
+
+export const CATEGORIES = ["All", "Electronics", "Accessories"]
